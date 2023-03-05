@@ -7,3 +7,11 @@ const subtractClick =()=>{ return(counterValue=counterValue-1),
                          };
 decrement.addEventListener("click", subtractClick);
 console.log(counterValue);
+
+const increment=document.querySelector(`button[data-action="increment"]`);
+console.log(increment);
+const addClick =()=>{ return(counterValue=counterValue+1), 
+                            console.log(counterValue);
+                         };
+increment.addEventListener("click", addClick);
+console.log(counterValue);
