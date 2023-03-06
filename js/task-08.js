@@ -15,5 +15,7 @@ else
     };
     console.log(obj)
 }
+a.currentTarget.reset();
 }
+
 form.addEventListener("submit", verification);
